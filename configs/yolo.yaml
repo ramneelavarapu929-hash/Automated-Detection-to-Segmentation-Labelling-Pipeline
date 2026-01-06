@@ -1,0 +1,17 @@
+model:
+  weights: models/yolo/yolo12l.pt
+  device: cuda
+  half: true
+
+inference:
+  conf: 0.25
+  iou: 0.7
+  imgsz: 1280
+  max_det: 100
+
+classes_of_interest:
+  - pedestrian
+  - bicycle
+  - motorcycle
+  - e_scooter
+  - delivery_robot

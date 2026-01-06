@@ -1,0 +1,18 @@
+path: data/final_dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+task: segment
+nc: 8
+
+names:
+  0: pedestrian
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: airplane
+  5: bus
+  6: train
+  7: truck

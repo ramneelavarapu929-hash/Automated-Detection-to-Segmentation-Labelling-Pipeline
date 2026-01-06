@@ -1,0 +1,17 @@
+model:
+  cfg: configs/sam2.1/sam2.1_hiera_l.yaml
+  checkpoint: models/sam/sam2.1_hiera_large.pt
+  device: cuda
+
+predict:
+  multimask_output: false
+  box_prompt: true
+
+hil:
+  uncertainty_threshold: 0.5
+
+class_rarity:
+  5: 0.8   # bus
+  3: 0.9   # motorcycle
+  6: 0.1   # train
+  7: 0.9   # truck

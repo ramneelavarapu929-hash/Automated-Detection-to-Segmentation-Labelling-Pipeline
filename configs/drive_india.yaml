@@ -1,0 +1,23 @@
+# DriveIndia Dataset Configuration
+
+path: data
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 8
+
+# Class names (edit as needed)
+names:
+  0: pedestrian
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: bus
+  5: truck
+  6: e_scooter
+  7: delivery_robot
+
+# Segmentation format
+task: segment
