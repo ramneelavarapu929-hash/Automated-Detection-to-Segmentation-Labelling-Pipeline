@@ -57,6 +57,8 @@ Auto-Accepted (Silver Labels) | Human Review (Gold Labels)
 | Total Pipeline Latency | 79.9 ms | 37.2 ms | 2.15× faster |
 | Throughput | ~12.5 FPS | ~26.9 FPS | Real-time capable |
 
+### Visuals
+
 ![Alt text](./results/2026-01-06_21h49_01.gif)
 ---
 
