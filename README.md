@@ -81,7 +81,7 @@ At ~27 FPS, the pipeline operates just below a 30 FPS camera feed, making it sui
 ## Dataset Quality Validation
 
 A YOLOv11-seg model trained on the auto-labeled dataset achieved:
-- 0.84mAP@50
+- mAP@50: 0.84
 - mAP@50–95: 0.69
 - Low train–validation gap (<5%)
 - Strong VRU segmentation performance
