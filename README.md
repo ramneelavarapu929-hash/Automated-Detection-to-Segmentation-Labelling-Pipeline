@@ -16,7 +16,7 @@ The pipeline is engineered to be scalable, auditable, and deployment-ready, inte
   Implemented an uncertainty-based filtering strategy that prioritizes human review on the most ambiguous samples (e.g., VRUs such as e-scooters and delivery robots), consistently limiting manual review to <10% of the dataset.
 
 - Data Quality Validation via Model Training  
-  Trained a custom YOLOv11-seg model on the auto-labeled dataset to validate label quality, achieving 0.82 mAP@50–95 on a held-out test set.
+  Trained a custom YOLOv11-seg model on the auto-labeled dataset to validate label quality, achieving 0.69 mAP@50–95 on a held-out test set.
 
 ---
 
